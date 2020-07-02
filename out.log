@@ -13968,3 +13968,498 @@ java.lang.NullPointerException
 2020-06-27 21:32:56 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
 2020-06-27 21:32:58 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
 2020-06-27 21:32:59 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-27 21:34:48 ERROR HttpsURLConnectionClient.processExceptionGetWebResource(105) - (super) : Error while accessing the remote resource: https://javarush.ru/widget/pluginpages/com.javarush.task.task16.task1629/condition?daynight=light	Be sure the network is accessible and try again. : java.net.UnknownHostException
+2020-06-27 21:34:48 ERROR ConditionPanel.run(102) - HTML-content loading error.
+java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:167)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2440)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1110)
+	at com.homework.plugin.panel.ConditionPanel$1.run(ConditionPanel.java:82)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$9(PlatformImpl.java:418)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:417)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:175)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-06-27 21:34:52 ERROR HttpsURLConnectionClient.processExceptionGetWebResource(105) - (super) : Error while accessing the remote resource: https://javarush.ru/widget/pluginpages/com.javarush.task.task16.task1630/condition?daynight=light	Be sure the network is accessible and try again. : java.net.UnknownHostException
+2020-06-27 21:34:52 ERROR ConditionPanel.run(102) - HTML-content loading error.
+java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:167)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2440)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1110)
+	at com.homework.plugin.panel.ConditionPanel$1.run(ConditionPanel.java:82)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$9(PlatformImpl.java:418)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:417)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:175)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-06-27 21:35:21 ERROR HttpsURLConnectionClient.processExceptionGetWebResource(105) - (super) : Error while accessing the remote resource: https://javarush.ru/widget/pluginpages/com.javarush.task.task16.task1628/condition?daynight=light	Be sure the network is accessible and try again. : java.net.UnknownHostException
+2020-06-27 21:35:21 ERROR ConditionPanel.run(102) - HTML-content loading error.
+java.lang.NullPointerException
+	at java.base/java.io.Reader.<init>(Reader.java:167)
+	at java.base/java.io.InputStreamReader.<init>(InputStreamReader.java:113)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:2440)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1084)
+	at org.apache.commons.io.IOUtils.toString(IOUtils.java:1110)
+	at com.homework.plugin.panel.ConditionPanel$1.run(ConditionPanel.java:82)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$9(PlatformImpl.java:418)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:417)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at javafx.graphics/com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:175)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-06-28 14:37:56 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:37:57 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 14:38:01 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 14:38:03 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-28 14:38:08 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:38:28 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:38:28 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 14:38:34 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-28 14:38:37 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:38:50 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:38:51 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:38:57 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:39:11 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:39:11 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 14:39:20 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 14:39:23 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 14:39:25 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-28 14:39:25 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:52:55 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:52:55 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 14:52:58 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-28 14:53:46 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:53:47 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 14:53:49 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-28 14:53:50 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 14:53:57 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:53:57 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 14:53:59 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-28 14:54:09 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:54:10 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:54:34 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:54:40 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 14:55:02 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:03:53 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:03:54 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:03:54 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-28 15:04:27 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:04:27 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:04:28 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-28 15:05:10 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:05:11 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:05:12 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-28 15:08:04 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:08:04 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:08:05 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-28 15:08:06 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:08:26 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:08:27 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:08:27 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 400
+2020-06-28 15:08:28 WARN  TaskCompleted.run(69) - You already completed this task: "1. Внимательно посмотри, какие классы у тебя есть."
+2020-06-28 15:08:30 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:08:31 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-28 15:08:32 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-28 15:08:33 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:44:55 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:44:55 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:44:59 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-28 15:45:12 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:45:12 WARN  PluginUtil.getCurrentTask(71) - Error while retrieving the task key.
+2020-06-28 15:45:12 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:46:51 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-28 15:46:52 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-28 15:46:54 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 13:45:19 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 13:45:19 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 13:45:21 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 13:46:20 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 13:46:21 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 13:46:31 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 13:47:49 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 13:47:50 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 13:48:03 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 13:49:22 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 13:49:22 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 13:49:33 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 13:49:52 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 13:49:53 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 13:50:03 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:05:38 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:05:39 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:05:49 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:07:05 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:07:06 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:07:06 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:07:06 ERROR TaskCompleted.run(136) - Exception during task verification. : java.lang.NullPointerException
+2020-06-29 14:07:15 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:07:16 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:07:26 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:08:01 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:08:02 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:08:12 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:22:36 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:22:36 WARN  PluginUtil.getCurrentTask(71) - Error while retrieving the task key.
+2020-06-29 14:22:36 WARN  PluginUtil.getCurrentDirectory(102) - Error while getting the current directory.
+2020-06-29 14:22:36 WARN  PluginUtil.getCurrentDirectory(102) - Error while getting the current directory.
+2020-06-29 14:22:37 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:22:47 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:22:53 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:22:54 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:24:58 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:24:59 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:25:10 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:25:10 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:25:16 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:25:16 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 14:25:20 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 14:25:20 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:27:18 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:27:18 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:42:05 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:42:05 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:42:08 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 14:42:09 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 14:42:16 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 14:42:16 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 14:42:20 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 14:42:37 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 14:42:39 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 15:05:37 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 15:05:37 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 15:05:44 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 15:09:15 ERROR HttpsURLConnectionClient.getServerAvailabilityStatus(719) - Error while checking server availability.connect timed out
+2020-06-29 15:09:15 WARN  ValidateButton.isServerAvailable(78) - The server is unavailable. Wait a little, restart IntelliJ IDEA and try again.
+2020-06-29 21:28:59 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:28:59 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:29:06 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 21:30:44 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:30:44 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:30:52 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 21:31:05 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:31:05 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:31:13 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 21:31:36 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:31:36 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:31:46 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 21:31:46 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:31:52 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:31:52 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 21:31:57 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 21:31:58 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:35:30 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:35:30 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:35:31 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 21:35:32 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:35:35 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:35:35 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 21:35:37 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 21:35:37 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:38:55 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:38:55 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:38:57 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 21:38:57 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:39:00 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:39:01 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 21:39:04 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 21:39:05 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:39:36 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:39:36 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:39:37 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 21:39:37 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 21:39:39 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 21:39:40 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 21:39:41 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 21:39:42 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:17:10 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:17:10 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:17:12 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 22:17:47 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:17:47 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:17:48 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 22:17:48 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:17:51 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:17:51 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 22:17:53 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 22:17:53 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:22:18 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:22:19 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:22:21 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 22:23:36 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:23:36 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:23:38 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 22:24:12 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:24:13 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:24:15 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 22:24:20 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:24:20 WARN  PluginUtil.getCurrentTask(71) - Error while retrieving the task key.
+2020-06-29 22:24:20 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:26:43 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:26:43 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:26:48 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-29 22:26:48 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-29 22:26:50 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-29 22:26:50 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-29 22:26:52 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-29 22:26:52 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:16:23 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:16:23 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 14:16:24 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 14:16:55 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:16:56 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 14:16:57 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 14:16:57 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 14:17:07 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:17:08 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 14:17:15 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 14:17:16 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:17:52 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:17:52 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 14:17:53 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 14:17:53 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 14:17:56 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:17:56 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 14:17:58 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 14:17:58 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:18:49 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:18:49 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 14:18:50 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 14:18:51 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 14:18:53 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 14:18:54 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 14:19:05 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 14:19:06 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:13:37 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:13:37 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:13:39 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:20:48 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:20:48 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:20:50 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:21:13 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:21:13 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:23:23 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:23:24 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:23:24 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:23:24 ERROR TaskCompleted.run(136) - Exception during task verification. : java.lang.NullPointerException
+2020-06-30 16:23:40 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:23:40 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:23:42 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:26:19 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:26:20 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:26:21 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:28:16 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:28:17 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:28:20 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:28:21 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:28:24 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:28:24 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 16:28:31 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 16:28:31 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:36:39 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:42:41 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:42:41 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:42:43 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:43:41 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:43:41 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:43:43 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:45:33 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:45:33 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:45:34 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:45:50 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:45:50 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:45:53 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 16:45:53 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 16:45:56 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 16:45:57 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 16:46:00 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 16:46:01 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:03:07 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:03:07 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:03:12 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 17:03:12 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:03:40 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:03:40 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:04:48 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:04:49 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 17:04:57 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 17:04:59 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:05:49 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:05:50 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:05:52 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 17:15:25 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:15:25 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:15:25 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 17:15:25 ERROR TaskCompleted.run(136) - Exception during task verification. : java.lang.NullPointerException
+2020-06-30 17:15:39 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:15:39 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:15:41 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 17:16:24 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:16:25 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:18:00 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:18:01 INFO  HttpsURLConnectionClient.resetTask(234) - responseCode = 200
+2020-06-30 17:18:01 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:18:01 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 17:18:02 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:21:50 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:21:51 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:21:53 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 17:21:53 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 17:21:59 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 17:22:00 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 17:36:17 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 17:36:20 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:04:40 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:04:40 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:04:50 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:05:21 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:05:21 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:05:33 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:05:33 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:05:37 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:05:38 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:05:42 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:05:42 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:19:20 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:19:20 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:19:23 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:20:38 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:20:38 WARN  PluginUtil.getCurrentTask(71) - Error while retrieving the task key.
+2020-06-30 18:20:38 WARN  PluginUtil.getCurrentDirectory(102) - Error while getting the current directory.
+2020-06-30 18:20:38 WARN  PluginUtil.getCurrentDirectory(102) - Error while getting the current directory.
+2020-06-30 18:20:38 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:20:40 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:20:59 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:21:00 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:21:02 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:21:03 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:21:05 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:21:06 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:26:40 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:26:40 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:29:14 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:29:15 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:29:15 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:30:50 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:30:50 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:30:51 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:30:52 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:30:54 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:30:54 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:30:59 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:31:00 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:32:33 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:32:34 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:32:35 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:33:04 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:33:04 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:33:05 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:33:05 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:33:08 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:33:08 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:33:11 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:33:11 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:36:56 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:36:57 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:36:59 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:36:59 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:37:03 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:37:03 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:37:58 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:37:58 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:38:01 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:38:02 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:47:10 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:47:12 INFO  HttpsURLConnectionClient.resetTask(234) - responseCode = 200
+2020-06-30 18:47:12 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:47:12 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:47:13 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:48:03 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:48:03 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:53:36 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:53:36 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:53:38 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:53:38 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:53:41 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:53:41 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:53:45 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:53:45 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:56:17 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:56:17 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:56:18 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 18:56:18 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 18:56:22 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 18:56:22 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 18:56:26 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 18:56:26 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 22:46:22 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 22:46:22 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 22:46:23 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 22:46:23 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 22:46:26 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 22:46:26 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 22:46:30 INFO  HttpsURLConnectionClient.getTaskTemplateInfo(279) - responseCode = 200
+2020-06-30 22:46:30 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 22:47:55 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 22:47:55 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 22:47:56 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 22:48:20 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 22:48:21 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 22:48:22 INFO  HttpsURLConnectionClient.manualComplete(34) - responseCode = 200
+2020-06-30 22:48:22 INFO  HttpsURLConnectionClient.getTask(595) - responseCode = 200
+2020-06-30 22:48:25 INFO  HttpsURLConnectionClient.getWebResourceAsStream(635) - responseCode = 200
+2020-06-30 22:48:25 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 22:48:29 INFO  HttpsURLConnectionClient.getFilteredTasks(253) - responseCode = 200
+2020-06-30 22:52:50 INFO  PluginTasksProjectComponent.projectClosing(188) - ---------- Project closed ----------
+
+2020-07-02 12:10:30 INFO  PluginTasksProjectComponent.projectOpened(77) - ---------- Project opened ----------
+2020-07-02 12:10:30 INFO  PluginTasksProjectComponent.projectOpened(78) - ---------- Version 3.38 ----------
+
+2020-07-02 12:10:30 INFO  ApacheHttpClient.createAsyncHttpClient(143) - 1 proxies selected. Type: DIRECT
+2020-07-02 12:10:30 INFO  ApacheHttpClient.<init>(94) - ApacheHttpClient was successfully instantiated.
+2020-07-02 12:10:31 INFO  ApacheHttpClient.testConnection(202) - responseCode = 200
+2020-07-02 12:10:31 INFO  ApacheHttpClient.testConnection(217) - result = true
+2020-07-02 12:10:32 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-07-02 12:10:32 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-07-02 12:10:33 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-07-02 12:10:33 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-07-02 12:10:33 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-07-02 12:10:37 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-07-02 12:10:45 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-07-02 12:10:45 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-07-02 12:10:50 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-07-02 12:11:10 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-07-02 12:11:10 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-07-02 12:11:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:12:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:13:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:14:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:15:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:16:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:17:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:18:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:19:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:20:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:21:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:22:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:23:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:24:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:25:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:25:42 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-07-02 12:25:42 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-07-02 12:25:46 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-07-02 12:25:48 INFO  ApacheHttpClient.getFilteredTasks(333) - responseCode = 200
+2020-07-02 12:25:49 INFO  ApacheHttpClient.getTaskTemplateInfo(350) - responseCode = 200
+2020-07-02 12:25:50 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-07-02 12:26:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:27:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:28:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-02 12:29:33 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200

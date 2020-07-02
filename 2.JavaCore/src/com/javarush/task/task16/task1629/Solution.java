@@ -8,31 +8,33 @@ public class Solution {
     public static volatile BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws InterruptedException {
-        Read3Strings t1 = new Read3Strings();
-        Read3Strings t2 = new Read3Strings();
-        t1.start();
-        t1.join();
-        t2.start();
-        t2.join();
-        //add your code here - добавьте код тут
+        try {
+            Read3Strings t1 = new Read3Strings();
+            Read3Strings t2 = new Read3Strings();
+            t1.start();
+            t1.join();
+            t2.start();
+            t2.join();
+            t1.join();
+            reader.close();
+            //add your code here - добавьте код тут
 
-        t1.printResult();
-        t2.printResult();
+            t1.printResult();
+            t2.printResult();
+        } catch (IOException e) {
+
+        }
     }
     public static class Read3Strings extends Thread {
         private String s;
         @Override
         public void run() {
             try {
-                BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-                StringBuffer stringBuffer = new StringBuffer();
-                stringBuffer.append(bf.readLine());
-                stringBuffer.append(" ");
-                stringBuffer.append(bf.readLine());
-                stringBuffer.append(" ");
-                stringBuffer.append(bf.readLine());
-                s = stringBuffer.toString();
-                bf.close();
+                s = reader.readLine() +
+                        " " +
+                        reader.readLine() +
+                        " " +
+                        reader.readLine();
             } catch (IOException e) {
             }
         }

@@ -8,6 +8,8 @@ import java.util.List;
 */
 
 public class Solution {
+
+    static volatile boolean isFree = true;
     public static void main(String[] args) {
         new NoteThread().start();
         new NoteThread().start();
@@ -29,6 +31,18 @@ public class Solution {
                 System.out.println("Нить [" + threadName + "] удалила чужую заметку [" + note + "]");
             } else {
                 System.out.println("Нить [" + threadName + "] удалила свою заметку [" + note + "]");
+            }
+        }
+    }
+    public static class NoteThread extends Thread {
+        @Override
+        public void run() {
+            for (int index = 0; index < 1000; index++) {
+                Note.addNote(getName() + "-Note" + index);
+                try {
+                    Thread.sleep(1);
+                } catch (InterruptedException e){}
+                Note.removeNote(getName());
             }
         }
     }

@@ -1,11 +1,24 @@
 package com.javarush.task.task16.task1630;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Solution {
     public static String firstFileName;
     public static String secondFileName;
 
     //add your code here - добавьте код тут
+    static {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            firstFileName = reader.readLine();
+            secondFileName = reader.readLine();
+        } catch (IOException e) {
 
+        }
+    }
     public static void main(String[] args) throws InterruptedException {
         systemOutPrintln(firstFileName);
         systemOutPrintln(secondFileName);
@@ -15,6 +28,7 @@ public class Solution {
         ReadFileInterface f = new ReadFileThread();
         f.setFileName(fileName);
         f.start();
+        f.join();
         //add your code here - добавьте код тут
         System.out.println(f.getFileContent());
     }
@@ -28,6 +42,32 @@ public class Solution {
         void join() throws InterruptedException;
 
         void start();
+    }
+    public static class ReadFileThread extends Thread implements ReadFileInterface {
+        private String fullFileName;
+        private StringBuffer stringBuffer = new StringBuffer();
+
+        @Override
+        public void run() {
+            try {
+                BufferedReader reader = new BufferedReader(new FileReader(fullFileName));
+                while (reader.ready()) {
+                    stringBuffer.append(reader.readLine());
+                    stringBuffer.append(" ");
+                }
+            } catch (IOException e) {
+
+            }
+        }
+        @Override
+        public void setFileName(String fullFileName) {
+            this.fullFileName = fullFileName;
+        }
+
+        @Override
+        public String getFileContent() {
+            return stringBuffer.toString();
+        }
     }
 
     //add your code here - добавьте код тут

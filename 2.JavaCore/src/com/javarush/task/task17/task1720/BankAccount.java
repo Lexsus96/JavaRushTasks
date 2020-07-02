@@ -15,13 +15,13 @@ public class BankAccount {
         this.owner = owner;
     }
 
-    public void deposit(BigDecimal money) {
+    public synchronized void deposit(BigDecimal money) {
         BigDecimal newBalance = balance.add(money);
         System.out.println("Добавляем " + money + ", на счету " + newBalance);
         balance = newBalance;
     }
 
-    public void withdraw(BigDecimal money) throws NotEnoughMoneyException {
+    public synchronized void withdraw(BigDecimal money) throws NotEnoughMoneyException {
         BigDecimal newBalance = balance.subtract(money);
 
         if (newBalance.compareTo(BigDecimal.ZERO) < 0) throw new NotEnoughMoneyException();
@@ -30,11 +30,11 @@ public class BankAccount {
         System.out.println("Тратим " + money + ", на счету " + balance);
     }
 
-    public void deposit(String money) {
+    public synchronized void deposit(String money) {
         deposit(new BigDecimal(money));
     }
 
-    public void withdraw(String money) throws NotEnoughMoneyException {
+    public synchronized void withdraw(String money) throws NotEnoughMoneyException {
         withdraw(new BigDecimal(money));
     }
 }
