@@ -1,13 +1,12 @@
-package com.javarush.task.task18.task1803;
+package com.javarush.task.task18.task1804;
 
 /* 
-Самые частые байты
+Самые редкие байты
 */
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -29,11 +28,11 @@ public class Solution {
                 map.put(i, 1);
             }
         }
-        int max = 0;
+        int max = Integer.MAX_VALUE;
         List<Integer> list = new ArrayList<>();
         for(Map.Entry<Integer, Integer> i: map.entrySet()) {
             int count = i.getValue();
-            if (max < count) {
+            if (max > count) {
                 max = count;
                 list.clear();
                 list.add(i.getKey());
@@ -46,5 +45,4 @@ public class Solution {
         }
         reader.close();
     }
-
 }
