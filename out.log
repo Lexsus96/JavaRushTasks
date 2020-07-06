@@ -18886,3 +18886,16 @@ java.lang.NullPointerException
 2020-07-06 14:23:59 INFO  ApacheHttpClient.completed(28) - responseCode = 200
 2020-07-06 14:23:59 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
 2020-07-06 14:24:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:25:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:26:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:27:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:28:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:29:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:30:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:31:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:32:17 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-07-06 14:32:41 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-07-06 14:32:41 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-07-06 14:32:41 INFO  ApacheHttpClient.completed(28) - responseCode = 400
+2020-07-06 14:32:41 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-07-06 14:32:41 WARN  TaskCompleted.run(69) - You already completed this task: "Число S состоит из M цифр, например, S=370 и M (количество цифр) = 3"

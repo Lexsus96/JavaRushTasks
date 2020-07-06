@@ -53,20 +53,14 @@ public class Solution {
             }
             if (stringSize(sum) == j) {
                 result.add(sum);
-                result.add((long) j);
             }
         }
         return result;
     }
     public static HashSet<Long> checkNumber(int[] number, ArrayList<Long> sums) {
         HashSet<Long> result = new HashSet<>();
-        for (int z = 0; z < sums.size(); z += 2) {
+        for (int z = 0; z < sums.size(); z++) {
             long currentSum = sums.get(z);
-            if (currentSum == 4150) {
-                z++;
-                z--;
-            }
-            long p = sums.get(z + 1);
             long sum = currentSum;
             if (sum <= 0) continue;
             ArrayList<Integer> list = new ArrayList<Integer>();
